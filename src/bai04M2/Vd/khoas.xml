@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<khoas>
+	<khoa>
+		<makh>AV</makh>
+		<tenkh>anh van</tenkh>
+	</khoa>
+	<khoa>
+		<makh>TO</makh>
+		<tenkh>toan</tenkh>
+	</khoa>
+	<khoa>
+		<makh>TH</makh>
+		<tenkh>Tin hoc</tenkh>
+	</khoa>
+</khoas>
