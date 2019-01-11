@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<khoas>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><khoas>
 	<khoa>
 		<makh>AV</makh>
 		<tenkh>anh van</tenkh>
@@ -12,4 +11,4 @@
 		<makh>TH</makh>
 		<tenkh>Tin hoc</tenkh>
 	</khoa>
-</khoas>
+<khoa><makh>a</makh><tenkh>a</tenkh></khoa></khoas>
