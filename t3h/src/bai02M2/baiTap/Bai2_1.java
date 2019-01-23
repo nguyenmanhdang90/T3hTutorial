@@ -1,4 +1,4 @@
-package bai02M02.baiTap;
+package bai02M2.baiTap;
 
 import java.util.Arrays;
 import java.util.List;

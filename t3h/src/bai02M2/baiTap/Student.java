@@ -1,4 +1,4 @@
-package bai02M02.baiTap;
+package bai02M2.baiTap;
 
 public class Student {
 	private String firstName;

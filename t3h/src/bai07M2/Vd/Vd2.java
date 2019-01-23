@@ -1,4 +1,4 @@
-package bai07M02.Vd;
+package bai07M2.Vd;
 
 class Singleton {
 	private static Singleton singlton = new Singleton();

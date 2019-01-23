@@ -1,4 +1,4 @@
-package bai02M02.Vd;
+package bai02M2.Vd;
 
 import java.util.Arrays;
 import java.util.IntSummaryStatistics;
