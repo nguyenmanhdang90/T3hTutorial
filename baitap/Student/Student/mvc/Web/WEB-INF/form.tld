@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+  <tlib-version>1.0</tlib-version>
+  <short-name>template</short-name>
+  <uri>/WEB-INF/form</uri>
+  <tag>
+  	<name>pagination</name>
+  	<tag-class>form.Pagination</tag-class>
+  	<body-content>empty</body-content>
+  	<attribute>
+  		<name>param</name>
+  		<required>true</required>
+  	</attribute>
+  	<attribute>
+  		<name>size</name>
+  		<required>true</required>
+  		<rtexprvalue>true</rtexprvalue>
+  	</attribute>
+  	<attribute>
+  		<name>url</name>
+  		<required>true</required>
+  		<rtexprvalue>true</rtexprvalue>
+  	</attribute>
+  </tag>
+  <tag>
+  	<name>select</name>
+  	<tag-class>form.Select</tag-class>
+  	<body-content>empty</body-content>
+  	<attribute>
+  		<name>name</name>
+  		<required>true</required>
+  	</attribute>
+  	<attribute>
+  		<name>css</name>
+  		<required>true</required>
+  	</attribute>
+  	<attribute>
+  		<name>entities</name>
+  		<required>true</required>
+  		<rtexprvalue>true</rtexprvalue>
+  	</attribute>
+  </tag>
+</taglib>
