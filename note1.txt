@@ -1,0 +1,44 @@
+﻿<%@page import="java.sql.ResultSet"%>
+<%@page import="java.sql.Statement"%>
+<%@page import="helper.CSDL"%>
+<%@page import="java.sql.Connection"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bài tập 1</title>
+<%!
+	Connection ketNoi = CSDL.getKetNoi();
+	Statement stm;
+	ResultSet rs;
+	String sql = "select * from hang_sua";
+%>
+<%
+	stm = ketNoi.createStatement();
+	rs = stm.executeQuery(sql);
+%>
+</head>
+<body>
+<table border="1">
+	<caption>THÔNG TIN HÃNG SỮA</caption>
+	<tr>
+		<th>Mã HS</th>
+		<th>Tên hãng sữa</th>
+		<th>Địa chỉ</th>
+		<th>Điện thoại</th>
+		<th>Email</th>
+	</tr>
+	<%while(rs.next()){ %>
+		<tr>
+			<td><%=rs.getString("ma_hang_sua") %></td>
+			<td><%=rs.getString("ten_hang_sua") %></td>
+			<td><%=rs.getString("dia_chi") %></td>
+			<td><%=rs.getString("dien_thoai") %></td>
+			<td><%=rs.getString("email") %></td>
+		</tr>
+	<%} %>
+</table>
+</body>
+</html>
